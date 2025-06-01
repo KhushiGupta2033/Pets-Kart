@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cat</title>
+    <link rel="stylesheet" href="Cat.css" />
+    <link rel="shortcut icon" href="F_LOGO-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+<body>
+    <nav class="navbar shrink">
+        <div class="logo" >
+            <img src="F_LOGO-removebg-preview.png" alt="">
+        </div>
+        <ul class="menu">
+            <li><a href="pets.html">Home</a></li>
+            <li><a href="Animals.html" class="">Category</a></li>
+            <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+        <div class="menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="sec">
+        <div class="products">
+
+            <div class="card">
+                <div class="img-1"><img src="Abyssinian Cat.png" alt="Baby Kitten" /></div>
+                <div class="title">Abyssinian Cat</div>
+                <div class="box">
+                    <div class="price">INR 1200</div>
+                    <button class="btn" onclick='addToCart({id: "cat1", name: "Abyssinian Cat", price: 1200})'>Buy</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-2"><img src="Birman Cat.png" alt="Baby Kitten" /></div>
+                <div class="title">Birman Cat</div>
+                <div class="box">
+                    <div class="price">INR 1700</div>
+                    <button class="btn" onclick='addToCart({id: "cat2", name: "Birman Cat", price: 1700})'>Buy</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-3"><img src="British Shorthair.png" alt="Baby Kitten" /></div>
+                <div class="title">British Shorthair Cat</div>
+                <div class="box">
+                    <div class="price">INR 1400</div>
+                    <button class="btn" onclick='addToCart({id: "cat3", name: "British Shorthair Cat", price: 1400})'>Buy</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-4"><img src="Maine Coon.png" alt="Baby Kitten" /></div>
+                <div class="title">Maine Coon Cat</div>
+                <div class="box">
+                    <div class="price">INR 2800</div>
+                    <button class="btn" onclick='addToCart({id: "cat4", name: "Maine Coon Cat", price: 2800})'>Buy</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-5"><img src="Persian cat.png" alt="Baby Kitten" /></div>
+                <div class="title">Persian Cat</div>
+                <div class="box">
+                    <div class="price">INR 2000</div>
+                    <button class="btn" onclick='addToCart({id: "cat5", name: "Persian Cat", price: 2000})'>Buy</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-6"><img src="Ragdoll.png" alt="Baby Kitten" /></div>
+                <div class="title">Ragdoll</div>
+                <div class="box">
+                    <div class="price">INR 4000</div>
+                    <button class="btn" onclick='addToCart({id: "cat6", name: "Ragdoll", price: 4000})'>Buy</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-7"><img src="Siamese cat.png" alt="Baby Kitten" /></div>
+                <div class="title">Siamese Cat</div>
+                <div class="box">
+                    <div class="price">INR 2300</div>
+                    <button class="btn" onclick='addToCart({id: "cat7", name: "Siamese Cat", price: 2300})'>Buy</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-8"><img src="Sphynx cat.png" alt="Baby Kitten" /></div>
+                <div class="title">Sphynx Cat</div>
+                <div class="box">
+                    <div class="price">INR 4300</div>
+                    <button class="btn" onclick='addToCart({id: "cat8", name: "Sphynx Cat", price: 4300})'>Buy</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="cart.js"></script>
+</body>
+</html>
+
+

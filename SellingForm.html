@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pet Selling Form</title>
+    <link rel="stylesheet" href="SellingForm.css" />
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="form-container">
+            <h1>USER AND PET DETAILS</h1>
+            <form>
+                <label for="owner-name">Owner Name:</label>
+                <input type="text" id="owner-name" name="owner-name" placeholder="Enter your name" required />
+
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" placeholder="Enter your address" rows="3" required></textarea>
+
+                <label for="gov-id">Government ID:</label>
+                <input type="text" id="gov-id" name="gov-id" placeholder="Enter your government ID" required />
+
+                <label for="email">Email ID:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+                <label for="animal-type">Animal Type:</label>
+                <select id="animal-type" name="animal-type" required>
+                    <option value="" disabled selected>Select animal type</option>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="bird">Bird</option>
+                    <option value="rabbit">Rabbit</option>
+                    <option value="fish">Fish</option>
+                    <option value="goat">Goat</option>
+                    <option value="chicken">Chicken</option>
+                    <option value="cow">Cow</option>
+                    <option value="buffalo">Buffalo</option>
+                    <option value="ox">Ox</option>
+                    <option value="bull">Bull</option>
+                    <option value="pig">Pig</option>
+                    <option value="sheep">Sheep</option>
+                    <option value="horse">Horse</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="medical-condition">Medical Condition:</label>
+                <textarea id="medical-condition" name="medical-condition" placeholder="Describe medical condition (if any)" rows="3"></textarea>
+
+                <label for="animal-sex">Animal Sex:</label>
+                <select id="animal-sex" name="animal-sex" required>
+                    <option value="" disabled selected>Select animal sex</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+
+                <label for="animal-age">Animal Age (in years):</label>
+                <input type="number" id="animal-age" name="animal-age" min="0" placeholder="Enter age in years" required />
+
+                <label for="animal-photo">Upload Photo:</label>
+                <input type="file" id="animal-photo" name="animal-photo" accept="image/*" required />
+
+                <label for="selling-price">Selling Price:</label>
+                <input type="number" id="selling-price" name="selling-price" min="0" placeholder="Enter price" required />
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

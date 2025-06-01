@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabbit</title>
+    <link rel="stylesheet" href="rabbit.css">
+    <link rel="shortcut icon" href="F_LOGO-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+    <nav class="navbar shrink">
+        <div class="logo">
+            <img src="F_LOGO-removebg-preview.png" alt="">
+        </div>
+        <ul class="menu">
+            <li><a href="pets.html">Home</a></li>
+            <li><a href="Animals.html" class="">Category</a></li>
+            <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+        <div class="menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="sec">
+        <div class="products">
+
+
+            <div class="card">
+                <div class="img-1"><img src="American rabbit.png" alt="Baby Kitten"></div>
+                <!-- <div class="desc">Cat</div> -->
+                <div class="title">American Rabbit</div>
+                <div class="box">
+                    <div class="price">INR
+                        700</div>
+                    <button class="btn" onclick='addToCart({id: "rabbit1", name: "American Rabbit", price: 700})'>Buy</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="img-2"><img src="Cottontail rabbit.png" alt="Baby Kitten"></div>
+                <!-- <div class="desc">Dog</div> -->
+                <div class="title">Cottontail Rabbit</div>
+                <div class="box">
+                    <div class="price">INR 10,000</div>
+                    <button class="btn" onclick='addToCart({id: "rabbit2", name: "Cottontail Rabbit", price: 10000})'>Buy</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="img-3"><img src="Flemish Giant rabbit.png" alt="Baby Kitten"></div>
+                <!-- <div class="desc">Rabiit</div> -->
+                <div class="title">Flemish Giant Rabbit</div>
+                <div class="box">
+                    <div class="price">INR 1,400</div>
+                    <button class="btn" onclick='addToCart({id: "rabbit3", name: "Flemish Giant Rabbit", price: 1400})'>Buy</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="img-4"><img src="Holland Lop Rabbit.png" alt="Baby Kitten"></div>
+                <!-- <div class="desc">Bird</div> -->
+                <div class="title">Holland Lop Rabbit</div>
+                <div class="box">
+                    <div class="price">INR 2,100</div>
+                    <button class="btn" onclick='addToCart({id: "rabbit4", name: "Holland Lop Rabbit", price: 2100})'>Buy</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-5"><img src="Netherland Dwarf rabbit.png" alt="Baby Kitten"></div>
+                <!-- <div class="desc">Cow</div> -->
+                <div class="title">Netherland Dwarf Rabbit</div>
+                <div class="box">
+                    <div class="price">INR 18,000</div>
+                    <button class="btn" onclick='addToCart({id: "rabbit5", name: "Netherland Dwarf Rabbit", price: 18000})'>Buy</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="img-6"><img src="Oryctolagus Rabbit.png" alt="Baby Kitten"></div>
+                <!-- <div class="desc">Goat</div> -->
+                <div class="title">Oryctolagus Rabbit</div>
+                <div class="box">
+                    <div class="price">INR 6,000</div>
+                    <button class="btn" onclick='addToCart({id: "rabbit6", name: "Oryctolagus Rabbit", price: 6000})'>Buy</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="img-7"><img src="Pygmy rabbit.png" alt="Baby Kitten"></div>
+                <!-- <div class="desc">Chicken</div> -->
+                <div class="title">Pygmy Rabbit</div>
+                <div class="box">
+                    <div class="price">INR 600</div>
+                    <button class="btn" onclick='addToCart({id: "rabbit7", name: "Pygmy Rabbit", price: 600})'>Buy</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="img-8"><img src="Rex rabbit.png" alt="Baby Kitten"></div>
+                <!-- <div class="desc">Fish</div> -->
+                <div class="title">Rex Rabbit</div>
+                <div class="box">
+                    <div class="price">INR 250</div>
+                    <button class="btn" onclick='addToCart({id: "rabbit8", name: "Rex Rabbit", price: 250})'>Buy</button>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <script src="cart.js"></script>
+</body>
+
+</html>
